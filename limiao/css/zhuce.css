@@ -1,0 +1,12 @@
+#bos{height:500px;width:1060px;margin: 0 auto;background: url(../picture/beijing.jpg) center;}
+#bos .l{float: left;}
+#bos .-l img{width:485px;height:485px;margin-left: 150px;;}
+#bos .r{float: right;border: 2px solid #eee;width:378px;height:400px;margin-right: 100px;margin-top: 50px;}
+#bos .r h3{font-size:20px;margin-top: 20px;text-align: center}
+#bos .r input{display: block;width:298px;height:38px;border: 1px solid #eee;margin: 10px auto;}
+#bos .r p{margin-left: 40px;width:300px;color:#ccc}
+#bos .r span{color:#c99739;}
+#bos .-r .tips{margin-left: 40px;}
+#bos .r #btn{background: #c99739;color: #fff;}
+#bos .r a.login{margin-left: 220px;color:#c99739;}
+#bos .r a.login:hover{color:#f00;}

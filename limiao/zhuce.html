@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+     
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0;">
+<meta name="Author" content="" />
+<title>集团</title>
+<style>
+ul {float: right;list-style: none;}
+a {color: #fff;}
+#ul1 {width: 500px;font-size: 14px; color: #fff;line-height: 30px;text-align: center;margin: 0 auto;}
+#ul1 li {display: inline-block;width: 80px;height: 30px;border: 1px solid #fff;}
+#ul1 li a{color: #c99739;}
+#ul1 li:hover {background: #c99739;}
+#ul1 li a:hover{color: #fff;}
+#ul1 .ul2 {display: none; position: relative;width: 80px;}
+#ul1 .ul2 li {background: #f1e5ce;position: relative;}
+#ul1 .ul2 .ul3 {position: absolute;left: 80px;top: 0px;display: none;width: 80px;height: 90px;}
+.header .sou{height:50px;}
+.header .sou .tet{float:left;width:200px;height:34px;border:3px solid #c99739;font:12px/34px "";margin-left:500px; }
+.header .sou .sub{float:left;width:50px;height:34px;background:#c99739;border:0;color:#FFF;font:18px/34px "";}
+</style>
+<meta name="keywords" content="" />
+<meta name="Description" content="" />
+<link rel="stylesheet" type="text/css" href="css/whir_css.css">
+<link rel="stylesheet" type="text/css" href="css/zhuce.css">
+</head>
+
+<body>
+
+ 
+ 
+<header class="header clearfix">
+	<h1 class="h1 logo"><a><img src="picture/logo_1.png"></a></h1>
+	<div class="navBtn" id="nav-toggle"><span class="glyphicon glyphicon-list"></span></div>
+    <div class="lang clearfix">
+        
+    	<span>123-456-7890</span>
+        
+        <em>|</em>
+    </div>
+
+    <div class="sou" id="float_banner">
+      <select id="a" class="tet">
+     <option value="你好">恒安集团</option>
+     <option value="你好">恒大兴安</option>
+     <option value="你好">恒大冰泉o</option>
+     <option value="你好">恒大咔哇熊</option>
+     <option value="你好">恒大乳业</option>
+     </select>
+       
+       <input type="submit" value="搜索" class="sub">
+   </div>
+    <div>
+            <ul id="ul1">
+                <li><a href="default.html">首页</a></li>
+             
+                <li class="li1"><a  name="品牌产品" href="list.html">品牌产品</a>
+                    <ul class="ul2">
+                        <li class="li2">
+                          <a href="##">恒大冰泉</a>
+                          <ul class="ul3">
+                            <li class="li3">
+                              <a href="##">三级导航1</a>
+                            </li>
+                            <li class="li3">
+                              <a href="##">三级导航2</a>
+                            </li>
+                            <li class="li3">
+                              <a href="##">三级导航3</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="li2">
+                          <a href="##">恒大兴安</a>
+                          <ul class="ul3">
+                            <li class="li3">
+                              <a href="##">三级导航1</a>
+                            </li>
+                            <li class="li3">
+                              <a href="##">三级导航2</a>
+                            </li>
+                            <li class="li3">
+                              <a href="##">三级导航3</a>
+                            </li>
+                            <li class="li3">
+                                <a href="##">三级导航4</a>
+                              </li>
+                          </ul>
+                </li>
+                <li class="li1"><a href="#">恒大咔哇熊</a>
+                </li>
+                <li class="li1"><a href="#">恒大奥利</a>  
+                </li>
+            </ul>
+            <li><a href="2.html">农牧商城</a></li>
+            <li><a href="ShopCar.html">购物车</a></li>
+            <li ><a href="denglu.html">登录</a>|<a href="zhuce.html">注册</a></li>
+        </div>  
+</header>
+
+<div id="bos">
+        <div class="l">
+            
+        </div>
+        <form class="r">
+            <h3>账号密码注册</h3>
+            <input type="text" name="user" id="user" value="" placeholder="用户名"/>
+            <input type="password" name="pass" id="pass" value="" placeholder="密码"/>
+            <input type="password" name="pass1" id="pass1" value="" placeholder="确认密码"/>
+            
+            <!--<p>密码长度必须在8位以上，含大小写字母、数字、符号至少三种</p>-->
+            <span class="tips"></span>
+            <input type="button" name="btn" id="btn" value="注册" />
+            <span class="line">
+                <a href="denglu.html" class="login">已有账号？请登录</a>
+            </span>
+        </form>
+        
+    </div>	
+
+<footer class="footer clearfix">
+        <div class="left">    	
+        <div class="links"> <em>|</em><a href="#">网站地图</a><em>|</em><a href="#">法律声明</a><em>|</em><a href="#">友情链接</a></div>
+            
+            <a target="_blank" class="icons sina"></a>
+            <a href="javascript:;" class="icons wx"></a>
+            
+        </div>
+        <div class="right">
+                 © 2017 集团 All Rights Reserved.Designed by <a href="#">lilili</a> | <span class="icp"><a href="#">粤ICP备15041459号-3</a></span> 
+        </div>
+    </footer>
+    
+    </body>
+    <script src="js\sanji.js"></script>
+    <script src="js\jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+		class Register{
+			constructor(){
+				console.log(1)
+				this.url = "http://www.icodeilife.cn/ctrl/register.php";
+				this.init();
+			}
+			init(){
+				console.log(2)
+				var that = this;
+				$("#btn").click(function(){
+//					3.触发事件时开启ajax
+					that.load()
+				})
+			}
+			load(){
+				$.ajax({
+//					4.使用接口
+					url:this.url,
+//					7.成功之后的处理
+					success:function(res){
+						console.log(res)
+						switch(res){
+							case "0":
+								$(".tips").html("用户名重复");break;
+							case "1":
+								$(".tips").html("注册成功，2秒后跳转到登录");
+								setTimeout(()=>{
+									location.href = "denglu.html";
+								},2000)
+								break;
+							case "2":
+								$(".tips").html("数据不全");break;
+						}
+					},
+//					5.发送数据
+					data:{
+						tel:$("#user").val(),
+						pass:$("#pass").val()
+					}
+					})
+				}
+			}
+		new Register();
+	</script>
+    </html>
